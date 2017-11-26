@@ -2,3 +2,10 @@ RewriteEngine on
 Options -Indexes
 RewriteRule ^favicon\.ico$ public/favicon.ico
 RewriteRule !public/(.*) index.php
+
+#RewriteRule ^add-resident$ add_resident.php [L]
+#RewriteRule ^statistics$ statistics.php [L]
+#RewriteRule ^shifts$ shifts.php [L]
+#RewriteRule ^login$ login.php [L]
+#RewriteRule ^contact-us$ contact.php [L]
+#RewriteRule ^maintenance$ maintenance.php [L]

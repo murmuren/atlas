@@ -1,0 +1,115 @@
+<import file="templates/top"/>
+<import file="templates/navbar"/>
+    <div class="add_new_form">
+        <h1 class="centered">H1</h1>
+        <div class="form_wrap">
+            <div>
+                <span>ID:</span>
+                <input type="text" class="resident_id">
+            </div>
+            <div>
+                <span>First name in english:</span>
+                <input type="text" class="fname_eng">
+            </div>
+            <div>
+                <span>First name in hebrew:</span>
+                <input type="text" class="fname_heb">
+            </div>
+            <div>
+                <span>Last name in english:</span>
+                <input type="text" class="lname_eng">
+            </div>
+            <div>
+                <span>Last name in hebrew:</span>
+                <input type="text" class="lname_heb">
+            </div>
+            <div>
+                <span>Additional name in english:</span>
+                <input type="text" class="opt_name_eng">
+            </div>
+            <div>
+                <span>Additional name in hebrew:</span>
+                <input type="text" class="opt_name_heb">
+            </div>
+            <div>
+                <span>Year of birth:</span>
+                Year picker
+            </div>
+            <div>
+                <span>Country:</span>
+                Country picker
+            </div>
+            <div>
+                <span>Marital status:</span>
+                Status picker
+            </div>
+            <div>
+                <span>Kids:</span>
+                Kids picker
+            </div>
+            <div>
+                <span>Education:</span>
+                Education picker
+            </div>
+            <div>
+                <span>Occupation:</span>
+                Occupation picker
+            </div>
+            <div>
+                <span class="block span_ref_reason">Referral reason</span>
+                Ref reason
+            </div>
+            <div>
+                <span>Case:</span>
+                Case picker
+            </div>
+            <div>
+                <span>Referral Authority:</span>
+                Ref auth picker
+            </div>
+            <div>
+                <span>Check in:</span>
+                <input type="text" class="checkin_date datepicker" name="checkin">
+            </div>
+            <div>
+                <span>Check out:</span>
+                <input type="text" class="checkout_date datepicker" name="checkout">
+            </div>
+            <div>
+                <span>Check out reason:</span>
+                Check out reason picker
+            </div>
+            <div>
+                <span>Employment (english):</span>
+                <input type="text" class="input_employment_eng">
+            </div>
+            <div>
+                <span>Employment (hebrew):</span>
+                <input type="text" class="input_employment_heb">
+            </div>
+            <div class="return_method_wrap">
+                <span>Returned to origin country:</span>
+                <input type="radio" name="return_method" id="return1" value="by himself|עצמאית"><label for="return1">By himself</label>
+                <input type="radio" name="return_method" id="return2" value="voluntary|מרצון"><label  for="return2">Voluntary</label>
+                <input type="radio" name="return_method" id="return3" value="no|לא"><label for="return3">No</label>
+            </div>
+            <div>
+                <span>Left Israel to origin country in:</span>
+                <input type="text" class="homeland_return_date datepicker" name="homeland_return">
+            </div>
+            <div>
+                <span>Specialty obtained (english):</span>
+                <input type="text" class="input_specialty_obtained_eng">
+            </div>
+            <div>
+                <span>Specialty obtained (hebrew):</span>
+                <input type="text" class="input_specialty_obtained_heb">
+            </div>
+            <div class="btn_wrap">
+                <span class="btn btn_submit res_insert"><span>Insert resident</span></span>
+                <span class="btn btn_submit res_clear"><span>Clear</span></span>
+                <span class="btn btn_submit res_exit"><span>Exit</span></span>
+            </div>
+        </div>
+    </div>
+<import file="templates/bottom"/>

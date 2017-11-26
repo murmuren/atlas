@@ -1,6 +1,6 @@
 <?php
-require_once("vendor/lucinda/errors/loader.php");
-require_once("vendor/lucinda/logging/loader.php");
+require_once(LIBRARIES_PATH."/php-errors-api/loader.php");
+require_once(LIBRARIES_PATH."/php-logging-api/loader.php");
 require_once("src/error_handling/ErrorRendererFinder.php");
 require_once("src/error_handling/ErrorReportersFinder.php");
 
